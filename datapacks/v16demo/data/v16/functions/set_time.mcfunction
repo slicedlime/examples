@@ -1,2 +1,2 @@
 # Set the time to $(time)
-$time set blargh
+$time set $(time)
