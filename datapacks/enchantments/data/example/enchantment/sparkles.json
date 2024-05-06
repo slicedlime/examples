@@ -1,0 +1,45 @@
+{
+    "anvil_cost": 4,
+    "description": {
+      "text": "Sparkles!"
+    },
+    "effects": {
+      "minecraft:tick": [
+        {
+            "effect": {
+                "type": "minecraft:spawn_particles",
+                "horizontal_position": {
+                  "type": "in_bounding_box"
+                },
+                "horizontal_velocity": {
+                  "movement_scale": 0
+                },
+                "particle": {
+                  "type": "minecraft:ominous_spawning"
+                },
+                "speed": 1.0,
+                "vertical_position": {
+                  "type": "in_bounding_box"
+                },
+                "vertical_velocity": {
+                  "base": 0.1
+                }
+            }
+        }
+      ]
+    },
+    "max_cost": {
+      "base": 40,
+      "per_level_above_first": 10
+    },
+    "max_level": 1,
+    "min_cost": {
+      "base": 10,
+      "per_level_above_first": 10
+    },
+    "slots": [
+      "armor"
+    ],
+    "supported_items": "#minecraft:enchantable/armor",
+    "weight": 2
+  }

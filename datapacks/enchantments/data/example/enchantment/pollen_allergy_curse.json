@@ -1,0 +1,47 @@
+{
+    "anvil_cost": 4,
+    "description": {
+      "text": "Curse of Pollen Allergy"
+    },
+    "effects": {
+      "minecraft:tick": [
+        {
+            "effect": {
+                "type": "damage_entity",
+                "damage_type": "thorns",
+                "min_damage": 1,
+                "max_damage": 1
+            },
+            "requirements": {
+                "condition": "minecraft:all_of",
+                "terms": [
+                    {
+                        "chance": 0.005,
+                        "condition": "minecraft:random_chance"
+                    },
+                    {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                            "biomes": "#is_forest"
+                        }
+                    }
+                ]
+            }
+        }
+      ]
+    },
+    "max_cost": {
+      "base": 40,
+      "per_level_above_first": 10
+    },
+    "max_level": 3,
+    "min_cost": {
+      "base": 10,
+      "per_level_above_first": 10
+    },
+    "slots": [
+      "armor"
+    ],
+    "supported_items": "#minecraft:enchantable/armor",
+    "weight": 2
+  }

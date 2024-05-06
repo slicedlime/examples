@@ -1,5 +1,7 @@
 {
     "values": [
-        "example:fragility_curse"
+        "example:fragility_curse",
+        "example:pollen_allergy_curse",
+        "example:annoyance"
     ]
 }

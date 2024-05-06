@@ -1,0 +1,28 @@
+{
+    "anvil_cost": 2,
+    "description": {
+      "text": "Cowbow"
+    },
+    "effects": {
+      "minecraft:crossbow_charging_sounds": [
+        {
+          "end": "minecraft:entity.cow.hurt",
+          "start": "minecraft:entity.cow.ambient"
+        }
+      ]
+    },
+    "max_cost": {
+      "base": 50,
+      "per_level_above_first": 0
+    },
+    "max_level": 1,
+    "min_cost": {
+      "base": 12,
+      "per_level_above_first": 20
+    },
+    "slots": [
+      "mainhand"
+    ],
+    "supported_items": "#minecraft:enchantable/crossbow",
+    "weight": 5
+  }

@@ -1,0 +1,31 @@
+{
+    "anvil_cost": 4,
+    "description": {
+      "text": "Thor"
+    },
+    "effects": {
+      "minecraft:damage_immunity": [
+        {
+          "effect": {},
+          "requirements": {
+            "condition": "minecraft:weather_check",
+            "thundering": true
+          }
+        }
+      ]
+    },
+    "max_cost": {
+      "base": 65,
+      "per_level_above_first": 9
+    },
+    "max_level": 1,
+    "min_cost": {
+      "base": 15,
+      "per_level_above_first": 9
+    },
+    "slots": [
+      "mainhand"
+    ],
+    "supported_items": "#minecraft:enchantable/mace",
+    "weight": 2
+  }

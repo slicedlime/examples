@@ -1,0 +1,34 @@
+{
+    "anvil_cost": 8,
+    "description": {
+      "text": "Curse of Annoyance"
+    },
+    "effects": {
+      "minecraft:hit_block": [
+        {
+          "effect": {
+            "type": "minecraft:run_function",
+            "function": "example:annoying"
+          },
+          "requirements": {
+            "chance": 0.2,
+            "condition": "minecraft:random_chance"
+          }
+        }
+      ]
+    },
+    "max_cost": {
+      "base": 50,
+      "per_level_above_first": 0
+    },
+    "max_level": 1,
+    "min_cost": {
+      "base": 25,
+      "per_level_above_first": 0
+    },
+    "slots": [
+      "mainhand"
+    ],
+    "supported_items": "#minecraft:enchantable/vanishing",
+    "weight": 1
+  }

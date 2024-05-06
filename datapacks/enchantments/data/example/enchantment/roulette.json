@@ -1,0 +1,40 @@
+{
+    "anvil_cost": 2,
+    "description": {
+      "text": "Roulette"
+    },
+    "effects": {
+      "minecraft:item_damage": [
+        {
+            "effect": {
+                "type": "minecraft:set",
+                "value": 0
+            }
+        },
+        {
+            "effect": {
+                "type": "minecraft:add",
+                "value": 2000
+            },
+            "requirements": {
+                "condition": "random_chance",
+                "chance": 0.01
+            }
+        }
+      ]
+    },
+    "max_cost": {
+      "base": 55,
+      "per_level_above_first": 8
+    },
+    "max_level": 1,
+    "min_cost": {
+      "base": 5,
+      "per_level_above_first": 8
+    },
+    "slots": [
+      "mainhand"
+    ],
+    "supported_items": "#minecraft:enchantable/durability",
+    "weight": 5
+  }
