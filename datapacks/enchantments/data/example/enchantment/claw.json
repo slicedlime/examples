@@ -12,9 +12,8 @@
             "per_level_above_first": 2
           },
           "attribute": "minecraft:player.block_interaction_range",
-          "name": "enchantment.claw",
-          "operation": "add_value",
-          "uuid": "07a65791-f64d-4e79-86c7-f83932f007ff"
+          "id": "example:enchantment.claw",
+          "operation": "add_value"
         }
       ]
     },

@@ -12,9 +12,8 @@
             "per_level_above_first": -0.2
           },
           "attribute": "minecraft:generic.scale",
-          "name": "enchantment.respiration",
-          "operation": "add_multiplied_base",
-          "uuid": "07a65791-f64d-4e79-86c7-f83932f007ed"
+          "id": "example:enchantment.diminishing",
+          "operation": "add_multiplied_base"
         }
       ]
     },
